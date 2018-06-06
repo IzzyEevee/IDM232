@@ -351,6 +351,7 @@ template {
 html{
   font-size: 100%;
   font-family: 'Brady Bunch Remastered';
+  background: url('https://images.freecreatives.com/wp-content/uploads/2015/12/Plaid-Texture-Seamless-Pattern.jpg')
 }
 
 header{
@@ -399,8 +400,9 @@ header p {
 }
 
 .sideMenu li{
-  padding: 4px;
+  padding: 10px;
   font-size: 150%;
+  font-family: 'Brady Bunch Remastered';
 }
 
 .sideMenu ul a{
@@ -447,10 +449,23 @@ header p {
 }
 
 section {
-  font-family: 'Georgia';
   font-size: 150%;
   text-align: center;
   padding: 15px;
+}
+
+section p, li{
+  font-family: 'Georgia';
+}
+
+section h1 {
+  font-size: 300%;
+  margin: 0;
+}
+
+section h3 {
+  font-size: 200%;
+  margin: 0;
 }
 
 section ul{
@@ -459,9 +474,71 @@ section ul{
 
 @media screen and (min-width:768px){
   section{
-    width: 60%;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media screen and (min-width:1024px){
+  .content{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.item .itemIng{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  max-width: 490px;
+  padding: 5px;
+}
+
+.itemIng ul{
+  padding-left: 25%;
+}
+
+.item p{
+  max-width: 490px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 1024px){
+  .item p{
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 5%;
+  }
+}
+
+.item img {
+  max-width: 70%;
+}
+
+.itemIng img {
+  max-width: 70%;
+}
+
+.itemIng ul {
+  width: 55%;
+}
+
+@media screen and (min-width: 1024px){
+  .item img{
+    padding-top: 11%;
+    max-width: 490px;
+  }
+
+  .itemIng img {
+    max-width: 490px;
+  }
+
+  .itemIng{
+    width: 50%;
   }
 }
 
@@ -472,7 +549,7 @@ section ul{
 }
 
 .container{
-  width: 200px;
+  width: 300px;
   padding: 5px;
 }
 
@@ -480,6 +557,6 @@ section ul{
   margin: 0;
 }
 
-img{
-  width: 100%;
+@media screen and (min-width: 1024px){
+  
 }
