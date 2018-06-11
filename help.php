@@ -32,8 +32,9 @@
     <!-- Content -->
     <section class="info">
       <h1>Help</h1>
+      <img class="helpImg" src="help.svg"/>
       <h3>Question 1, How to I use this website?</h3>
-      <p>You can either use the menu and click on 'All Recipes' to look for recipes or if you have a specfic one in mind that I
+      <p>You can either use the menu on the top left of the screen and click on 'All Recipes' to look for recipes or if you have a specfic one in mind that I
       might have, then use the search bar in the menu.</p>
     </section>
     <!-- Blank -->

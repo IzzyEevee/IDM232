@@ -33,9 +33,10 @@
     <section class="info">
       <div class="Mcontent">
         <div class="Mitem">
+          <img class="logo" src="logo.svg"/>
           <p>Hello, and welcome to my cookbook! I am Ms. Grey and as you can see, I like grayscale. However, there is one other thing
           I do like: colorful food! In this website, you'll have dozens of recipes that I have used to spice my my cooking experience
-        from gray to color.</p>
+        from gray to color. Click <a href="help.php">here</a> if you need help with the website!</p>
           </div>
       </div>
     </section>
