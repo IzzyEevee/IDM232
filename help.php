@@ -36,6 +36,8 @@
       <h3>Question 1, How to I use this website?</h3>
       <p>You can either use the menu on the top left of the screen and click on 'All Recipes' to look for recipes or if you have a specfic one in mind that I
       might have, then use the search bar in the menu.</p>
+      <h3>Question 2, Is there filtering?</h3>
+      <p>Yes, type in either 'breakfest', 'lunch', or 'dinner' to filter out food times.</p>
     </section>
     <!-- Blank -->
     <script src="js/main.js"></script>

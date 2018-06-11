@@ -30,9 +30,7 @@
       <li><a href="javascript:void(0)" class="close" onclick="closeMenu()">&times;</a></li>
        <li><a href="index.php">Home</a></li>
        <li><a href="help.php">Help</a></li>
-       <li><a href="#">Search Results (Temp)</a></li>
-       <li><a href="nosearch.php">No Search Results (Temp)</a></li>
-       <li><a href="recipe.php">Single Recipe (Temp)</a></li>
+       <li><a href="allrecipes.php">All Recipes</a></li>
        <li><div class="searchContainer">
          <form action="search.php">
            <input type="text" placeholder="Search..." name="search">
@@ -51,7 +49,7 @@
 
       $word = $_GET["search"];
 
-      $query = "SELECT * FROM Food WHERE Main_Heading LIKE '%$word%' OR SUb_Heading LIKE '%$word%'";
+      $query = "SELECT * FROM Food WHERE Main_Heading LIKE '%$word%' OR Sub_Heading LIKE '%$word%' OR category LIKE '%$word%'";
       $result = mysqli_query($connection, $query);
       $count = mysqli_num_rows($result);
       if($count > 0){
